@@ -1,0 +1,36 @@
+{
+  "name": "create-solana-wallets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://goldengitstar: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@github.com/goldengitstar/create-solana-wallets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/goldengitstar/create-solana-wallets/issues"
+  },
+  "homepage": "https://github.com/goldengitstar/create-solana-wallets#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "mongoose": "^8.17.1"
+  }
+}
