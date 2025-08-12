@@ -36,6 +36,7 @@ export const init = () => {
 export const createRandomGeneratedWallet = async (publicKey: string, privateKey: string) => {
     const wallet = new RandomGeneratedWallet({ publicKey, privateKey });
     await wallet.save();
+    console.log(`🔄 Created random generated wallet: ${publicKey}`);
     return wallet;
 };
 
